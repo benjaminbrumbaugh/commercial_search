@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Printables Commercial Search</title>
+  <title>Printables Commercial Use Search</title>
   <style>
     body { font-family: sans-serif; text-align: center; margin-top: 100px; }
     input, button { padding: 10px; font-size: 16px; }
     input { width: 300px; }
+    small { display: block; margin-top: 20px; color: #666; }
   </style>
 </head>
 <body>
@@ -18,12 +19,24 @@
     <button type="submit">Search</button>
   </form>
 
+  <small>Only showing licenses that allow selling prints commercially.</small>
+
   <script>
     function search() {
       var term = document.getElementById('searchTerm').value.trim();
       if (term) {
         var encoded = encodeURIComponent(term);
-        var url = "https://www.printables.com/search/models?ctx=models&license=4&q=" + encoded;
+        var url = "https://www.printables.com/search/models?ctx=models"
+                + "&license=1"
+                + "&license=2"
+                + "&license=3"
+                + "&license=4"
+                + "&license=8"
+                + "&license=9"
+                + "&license=10"
+                + "&license=11"
+                + "&license=13"
+                + "&q=" + encoded;
         window.open(url, "_blank");
       } else {
         alert("Please type something to search.");
