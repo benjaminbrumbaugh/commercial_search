@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Printables Commercial Search</title>
-<style>
-  body { font-family: sans-serif; text-align: center; margin-top: 100px; }
-  input, button { padding: 10px; font-size: 16px; }
-  input { width: 300px; }
-</style>
+  <meta charset="UTF-8">
+  <title>Printables Commercial Search</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 100px; }
+    input, button { padding: 10px; font-size: 16px; }
+    input { width: 300px; }
+  </style>
 </head>
 <body>
 
-<h2>Search Printables for Models You Can Sell</h2>
+  <h2>Search Printables for Models You Can Sell</h2>
 
-<form onsubmit="search(); return false;" style="margin-top:20px;">
-  <input type="text" id="searchTerm" placeholder="Type what you want to find...">
-  <button type="submit">Search</button>
-</form>
+  <form onsubmit="search(); return false;" style="margin-top:20px;">
+    <input type="text" id="searchTerm" placeholder="Type what you want to find...">
+    <button type="submit">Search</button>
+  </form>
 
-<script>
-function search() {
-  var term = document.getElementById('searchTerm').value.trim();
-  if (term) {
-    var encoded = encodeURIComponent(term);
-    var url = "https://www.printables.com/model?license=4&q=" + encoded;
-    window.open(url, "_blank");
-  } else {
-    alert("Please type something to search.");
-  }
-}
-</script>
+  <script>
+    function search() {
+      var term = document.getElementById('searchTerm').value.trim();
+      if (term) {
+        var encoded = encodeURIComponent(term);
+        var url = "https://www.printables.com/search/models?ctx=models&license=4&q=" + encoded;
+        window.open(url, "_blank");
+      } else {
+        alert("Please type something to search.");
+      }
+    }
+  </script>
 
 </body>
 </html>
