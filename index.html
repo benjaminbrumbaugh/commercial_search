@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Thangs Commercial Free Search</title>
+<title>Printables Commercial Search</title>
 <style>
   body { font-family: sans-serif; text-align: center; margin-top: 100px; }
   input, button { padding: 10px; font-size: 16px; }
@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<h2>Search Thangs for Free Models You Can Sell</h2>
+<h2>Search Printables for Models You Can Sell</h2>
 
 <form onsubmit="search(); return false;" style="margin-top:20px;">
   <input type="text" id="searchTerm" placeholder="Type what you want to find...">
@@ -23,7 +23,7 @@ function search() {
   var term = document.getElementById('searchTerm').value.trim();
   if (term) {
     var encoded = encodeURIComponent(term);
-    var url = "https://thangs.com/search/models?q=" + encoded + "&commercialUse=true&free=true";
+    var url = "https://www.printables.com/model?license=4&q=" + encoded;
     window.open(url, "_blank");
   } else {
     alert("Please type something to search.");
