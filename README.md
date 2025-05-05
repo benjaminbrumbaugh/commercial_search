@@ -42,3 +42,20 @@ Printables is by the Czech company Original Prusa, an early innovator in the add
 Here is where you can find what models we're allowed to sell.
  ![Printables Comerical License](/Comerical_License.png)
 
+# Model Repository #2: Cubee Hive
+### Fun Background
+Cubee Hive new model hub that is trying to find a way to get designers paid for their work. They are relatively new on the scene, only just breaking 1000 designs, but you can't find most of them anywhere else. Their strategy is a combination of high-quality models made-to-sell, exclusivity through a limited number of sellers, subscription fees for access, and even reocurring royalties to designers. This backpressure gives an advantage to merchants willing to buy-in, and we don't know if it's going to work. However, we're 1 of only 50 accounts that have full site access to all models and marketing materials for all designers. So we intend to find out.
+
+### Link
+[https://hive.cubee3d.com/all-products](https://hive.cubee3d.com/all-products)
+
+
+### Helpful Info
+This site is new, and it feels like a beta release. My advice is to be patient and find your own rhythm to browsing. The filter tags are not super effective, but searching for keywords works pretty well. I noticed it loads better in Firefox than Safari if you're on a computer. See me for login info.
+
+
+
+
+
+
+
