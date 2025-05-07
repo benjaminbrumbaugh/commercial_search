@@ -51,7 +51,7 @@ Cubee Hive new model hub that is trying to find a way to get designers paid for 
 
 
 ### Helpful Info
-This site is new, and it feels like a beta release. My advice is to be patient and find your own rhythm to browsing. The filter tags are not super effective, but searching for keywords works pretty well. I noticed it loads better in Firefox than Safari if you're on a computer. See me for login info.
+This site is new, and it feels like a beta release. My advice is to be patient and find your own rhythm to browsing. The filter tags should be ___avoided___ searching for keywords works pretty well. I noticed it loads better in Firefox than Safari if you're on a computer. If you can only see two pages of models you're probably looking at ___Editor's Picks___, ___scroll up___. See me for ___login__ info.
 
 
 
